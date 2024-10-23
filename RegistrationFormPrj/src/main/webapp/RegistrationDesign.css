@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+table, th, tr, td {
+	border: solid 2px red;
+}
+h1 {
+	color: blue;
+}
+label {
+	color: violet;
+}

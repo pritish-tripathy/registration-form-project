@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<link rel="stylesheets" href="RegistrationDesign.css">
+</head>
+<body>
+	<center>
+	<h1>Registration Form</h1>
+	<form action="register.prj">
+		<table>
+			<tr colspan="1">
+				<th><h3 style="color: blue">Registration Form</h3></th>
+			</tr>
+			<tr>
+				<td><label>Enter First Name: </label></td>
+				<td><input type="text" placeholder="Enter First Name" name="firstName"></td>
+			</tr>
+			<tr>
+				<td><label>Enter Middle Name: </label></td>
+				<td><input type="text" placeholder="Enter Middle Name" name="middleName"></td>
+			</tr>
+			<tr>
+				<td><label>Enter Last Name: </label></td>
+				<td><input type="text" placeholder="Enter Last Name" name="lastName"></td>
+			</tr>
+			<tr>
+				<td><label>Enter Email: </label></td>
+				<td><input type="text" placeholder="Enter Email" name="email"></td>
+			</tr>
+			<tr>
+				<td><label>Enter Phone Number: </label></td>
+				<td><input type="text" placeholder="Enter Phone Number" name="phoneNumber"></td>
+			</tr>
+			<tr>
+				<td><label>Select Your Gender: </label></td>
+				<td><input type="radio" name="gender" value="Male">Male</td>
+				<td><input type="radio" name="gender" value="Female">Female</td>
+				<td><input type="radio" name="gender" value="We Dont talk to You">LGBTQABCD+++</td>
+			</tr>
+			<tr>
+				<td><label>Select the Courses: </label></td>
+				<td><input type="checkbox" name="courses" value="Java"/>Java</td>
+				<td><input type="checkbox" name="courses" value="Python"/>Python</td>
+				<td><input type="checkbox" name="courses" value="ReactJS"/>ReactJS</td>
+				<td><input type="checkbox" name="courses" value="AngularJS"/>Angular</td>
+				<td><input type="checkbox" name="courses" value="DotNet"/>DotNet</td>
+			</tr>
+			<tr>
+				<td><label>Select your Timing: </label></td>
+				<td>
+					<select name="timings">
+						<option>Select Timing</option>
+						<option>7:00 - 8:00</option>
+						<option>8:00 - 9:00</option>
+						<option>9:00 - 10:00</option>
+						<option>10:00 - 11:00</option>
+						<option value="11-12">11:00 - 12:00</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Remarks:</td>
+				<td><textarea rows="6" cols="20" name="remarks"></textarea></td>			
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Register Now"></td>			
+			</tr>
+		</table>
+	</form>
+	</center>
+</body>
+</html>
